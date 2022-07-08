@@ -1,6 +1,8 @@
 package com.luv2code.springdemo.aspect;
 
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
@@ -30,6 +32,18 @@ public class CRMLoggingAspect {
 
 
     // add @Before advice
+    @Before("forAppFlow()")
+    public void before(JoinPoint theJoinPoint) {
+
+        // display method we are calling
+        String theMethod = theJoinPoint.getSignature().toShortString();
+        myLogger.info("=======>>> in @Before: calling method: " + theMethod);
+
+        // display the arguments to the method
+
+    }
+
+
     // add @AfterReturning advice
 
 }

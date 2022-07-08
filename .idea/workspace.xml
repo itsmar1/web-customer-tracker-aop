@@ -64,7 +64,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 9.0.46" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.46" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 9.0.46" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.46" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true" show_console_on_std_out="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="web-customer-tracker:Web exploded">
@@ -243,7 +243,7 @@
       <workItem from="1656927881411" duration="10900000" />
       <workItem from="1656961188321" duration="10451000" />
       <workItem from="1657027344856" duration="45000" />
-      <workItem from="1657309998401" duration="4758000" />
+      <workItem from="1657309998401" duration="8339000" />
     </task>
     <servers />
   </component>
